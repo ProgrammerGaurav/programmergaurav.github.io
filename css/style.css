@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Ubuntu;
+}
+
+header {
+	padding: 0px 30px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #8c43ff;
+	box-sizing: border-box;
+	z-index: 99999;
+	position: fixed;
+	background: transparent;
+	height: 70px;
+}
+
+.navbars {
+	transition: all 0.5s;
+}
+
+header .logo {
+	color: #fff;
+	height: 70px;
+	line-height: 70px;
+	font-size: 24px;
+	font-weight: bold;
+	float: left;
+}
+
+header nav {
+	float: right;
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+header nav ul li {
+	list-style: none;
+}
+
+header nav ul li a {
+	height: 70px;
+	line-height: 70px;
+	padding: 0px 30px;
+	text-decoration: none;
+	display: block;
+	color: #fff;
+	transition: 0.5s;
+}
+
+header nav ul li a:hover {
+	color: #333;
+	background: #fff;
+	border-radius: 20px;
+}
+
+.toggle {
+	color: white;
+	float: right;
+	font-size: 30px;
+	cursor: pointer;
+	display: none;
+	line-height: 70px;
+}
+
+.welcome_area {
+	position: relative;
+	height: 1200px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.title {
+	font-size: 60px;
+	color: #fff;
+	padding-top: 250px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.email {
+	color: #fff;
+	text-align: center;
+	margin-bottom: 50px;
+	font-weight: bold;
+}
+
+.work img {
+	width: 60%;
+}
+
+.owl-carousel img {
+	height: 100%;
+	width: 100%;
+}
+
+/*About me*/
+.about {
+	z-index: -10;
+}
+
+.about h1 {
+	text-align: center;
+	font-size: 40px;
+}
+
+.about i {
+	font-size: 100px;
+	padding: 10px;
+}
+
+.about p {
+	font-weight: 900;
+}
+
+.single-promo {
+	margin: 10%;
+	border: 1px solid #3f8ed7;
+	font-size: 25px;
+	font-weight: 200;
+	padding: 20px 10px;
+	text-align: center;
+	background-color: #3f8ed7;
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+
+.single-promo:hover {
+	background-color: blue;
+}
+
+.col-md-3 {
+	width: 50%;
+	float: left;
+}
+
+.col-6 {
+	width: 50%;
+	float: left;
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.promo-area {
+	color: #fff;
+	position: relative;
+	overflow: hidden;
+}
+
+.skills {
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.skills h1 {
+	text-align: center;
+}
+
+.owl-carousels {
+	margin-top: 30px;
+}
+
+.skills-set {
+	text-align: center;
+	font-size: 50px;
+	color: #666;
+}
+
+.skills-set img {
+	width: 100px;
+	height: 100px;
+}
+
+/*Footer*/
+.fan {
+	padding: 20px;
+	font-size: 50px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.fan:hover {
+	opacity: 0.7;
+}
+
+.fa-facebook {
+	background: #3b5998;
+	color: white;
+}
+
+.fa-twitter {
+	background: #55acee;
+	color: white;
+}
+
+.fa-linkedin {
+	background: #007bb5;
+	color: white;
+}
+
+.fa-instagram {
+	background: #9c2dbb;
+	color: white;
+}
+
+.footer a:hover {
+	color: #fff;
+}
+
+.footer h3 {
+	font-weight: bold;
+}
+
+.footer {
+	background-color: #25499f;
+}
