@@ -24,7 +24,7 @@ header {
 	transition: all 0.5s;
 }
 
-header .logo {
+header .logo h1{
 	color: #fff;
 	height: 70px;
 	line-height: 70px;
@@ -109,7 +109,7 @@ header nav ul li a:hover {
 	z-index: -10;
 }
 
-.about h1 {
+.about h2 {
 	text-align: center;
 	font-size: 40px;
 }
@@ -166,7 +166,7 @@ header nav ul li a:hover {
 	margin-bottom: 50px;
 }
 
-.skills h1 {
+.skills h2 {
 	text-align: center;
 }
 
