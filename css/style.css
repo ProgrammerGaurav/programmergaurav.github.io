@@ -189,6 +189,10 @@ header nav ul li a:hover {
 .achivements {
 	text-align: center;
 }
+.achivements img {
+	height :140px;
+
+}
 /*Footer*/
 .fan {
 	padding: 20px;
