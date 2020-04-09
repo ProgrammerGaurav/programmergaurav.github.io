@@ -31,6 +31,25 @@ owl.owlCarousel({
         }
     }
 });
+var owl = $('.owl-carousels2');
+owl.owlCarousel({
+    items: 1,
+    loop: true,
+    autoplay: true,
+    mouseDrag: true,
+    center: true,
+    rtl: true,
+    autoplayTimeout: 4000,
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 1,
+        },
+        1000: {
+            items: 3,
+        }
+    }
+});
 new WOW().init();
 $(document).ready(function() {
     $(".se-pre-con").fadeOut("slow");

@@ -186,13 +186,15 @@ header nav ul li a:hover {
 }
 
 /*Achivements*/
-.achivements {
+.certification {
 	text-align: center;
 }
-.achivements img {
+.certificate{
 	height :140px;
-
+	margin:20px;
+	margin-bottom:100px;
 }
+
 /*Footer*/
 .fan {
 	padding: 20px;
