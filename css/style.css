@@ -198,8 +198,8 @@ header nav ul li a:hover {
 /*Footer*/
 .fan {
 	padding: 20px;
-	font-size: 50px;
-	width: 50px;
+	font-size: 25px;
+	width: 60px;
 	text-align: center;
 	text-decoration: none;
 }
@@ -208,7 +208,7 @@ header nav ul li a:hover {
 	opacity: 0.7;
 }
 
-.fa-facebook {
+.fa-facebook-f {
 	background: #3b5998;
 	color: white;
 }
