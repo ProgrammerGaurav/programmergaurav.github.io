@@ -69,7 +69,7 @@ $(document).ready(function() {
 });
 var typed = new Typed("#typed", {
     stringsElement: '#typed-strings',
-    typeSpeed: 25,
+    typeSpeed: 30,
     backSpeed: 10,
     loop: true
 });

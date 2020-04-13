@@ -24,7 +24,7 @@ header {
 	transition: all 0.5s;
 }
 
-header .logo h1{
+header .logo h1 {
 	color: #fff;
 	height: 70px;
 	line-height: 70px;
@@ -189,10 +189,11 @@ header nav ul li a:hover {
 .certification {
 	text-align: center;
 }
-.certificate{
-	height :140px;
-	margin:20px;
-	margin-bottom:100px;
+
+.certificate img {
+	height: 250px;
+	padding: 20px;
+	margin-bottom: 50px;
 }
 
 /*Footer*/
