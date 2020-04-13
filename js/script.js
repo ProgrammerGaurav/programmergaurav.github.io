@@ -66,6 +66,9 @@ $(document).ready(function() {
     $('.toggle').click(function() {
         $('nav').toggleClass('menu')
     });
+     $('.navopt').click(function() {
+        $('nav').toggleClass('menu')
+    });
 });
 var typed = new Typed("#typed", {
     stringsElement: '#typed-strings',
