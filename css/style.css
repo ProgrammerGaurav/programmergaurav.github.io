@@ -200,7 +200,7 @@ header nav ul li a:hover {
 .fan {
 	padding: 20px;
 	font-size: 25px;
-	width: 60px;
+	
 	text-align: center;
 	text-decoration: none;
 }
@@ -229,13 +229,14 @@ header nav ul li a:hover {
 	color: white;
 }
 
+.fa-github {
+	background: #212529;
+	color: white;
+}
 .footer a:hover {
 	color: #fff;
 }
 
-.footer h3 {
-	font-weight: bold;
-}
 
 .footer {
 	background-color: #25499f;
