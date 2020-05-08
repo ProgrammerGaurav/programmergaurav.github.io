@@ -1,4 +1,16 @@
 var owl = $('.owl-carousel');
+$(function () {
+    $('a[href*=\\#]:not([href=\\#])').on('click', function () {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.substr(1) + ']');
+        if (target.length) {
+            $('html,body').animate({
+                scrollTop: target.offset().top
+            }, 1000);
+            return false;
+        }
+    });
+});
 owl.owlCarousel({
     items: 1,
     loop: true,
@@ -51,22 +63,22 @@ owl.owlCarousel({
     }
 });
 new WOW().init();
-$(document).ready(function() {
+$(document).ready(function () {
     $(".se-pre-con").fadeOut("slow");
-    $('.toggle').click(function() {
+    $('.toggle').click(function () {
         $('nav').toggleClass('active');
     });
-    $(window).scroll(function() { // check if scroll event happened
+    $(window).scroll(function () { // check if scroll event happened
         if ($(document).scrollTop() > 50) { // check if user scrolled more than 50 from top of the browser window
             $(".navbars").css("background-color", "#25499F"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
         } else {
             $(".navbars").css("background-color", "transparent"); // if not, change it back to transparent
         }
     });
-    $('.toggle').click(function() {
+    $('.toggle').click(function () {
         $('nav').toggleClass('menu')
     });
-     $('.navopt').click(function() {
+    $('.navopt').click(function () {
         $('nav').toggleClass('menu')
     });
 });
