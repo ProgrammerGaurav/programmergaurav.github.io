@@ -185,8 +185,66 @@ header nav ul li a:hover {
 	height: 100px;
 }
 
+/* Projects */
+.myprotitle {
+	font-size: 40px;
+}
+
+.project p {
+	color: #fff;
+	font-size: larger;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1s, visibility 1s;
+	width: 100%;
+}
+
+.project img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	transition-duration: 1s;
+}
+
+.project img {
+	width: 100%;
+}
+
+.project:hover img {
+	filter: blur(5px) grayscale(100%);
+}
+
+.project:hover p {
+	visibility: visible;
+	opacity: 1;
+}
+
+.project p a {
+	line-height: 50px;
+	color: #8c43ff;
+	padding: 10px 25px 10px 25px;
+	border: 1px solid #8c43ff;
+	border-radius: 25px;
+	transition-duration: 1s;
+}
+
+.project p a:hover {
+	text-decoration: none;
+	color: #fff;
+	background-color: #8c43ff;
+}
+
+.project {
+	margin-bottom: 50px;
+}
+
 /*Achivements*/
 .certification {
+	margin-top: 100px;
 	text-align: center;
 }
 
