@@ -185,6 +185,8 @@ hr {
 .footer i {
     padding: 20px;
     font-size: 25px;
+    margin-right: 4px;
+    margin-left: 4px;
     text-align: center;
     text-decoration: none;
 }
