@@ -3,8 +3,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
    <url>
-   	<loc>https://programmergaurav.github.io/</loc>
-   	<lastmod>2020-03-31T06:14:40+00:00</lastmod>
+
+      <loc>https://programmergaurav.me/</loc>
+
+      <lastmod>2020-03-31T06:14:40+00:00</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>1</priority>
+
    </url>
 
 </urlset> 
