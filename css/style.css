@@ -1,302 +1,231 @@
-@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu");
 
+html,
 body {
-	margin: 0;
-	padding: 0;
-	font-family: Ubuntu;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+    /* scroll-snap-type: y mandatory; */
 }
 
-header {
-	padding: 0px 30px;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	background-color: #8c43ff;
-	box-sizing: border-box;
-	z-index: 99999;
-	position: fixed;
-	background: transparent;
-	height: 70px;
+/* Loader Screen  */
+.se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(Preloader.gif) center no-repeat #fff;
 }
 
-.navbars {
-	transition: all 0.5s;
+/* Loader Screen Ends  */
+
+section {
+
+    /* scroll-snap-align: start; */
 }
 
-header .logo h1 {
-	color: #fff;
-	height: 70px;
-	line-height: 70px;
-	font-size: 24px;
-	font-weight: bold;
-	float: left;
+/* Navigation bar */
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 999999;
+    background-color: transparent;
+    transition-duration: 0.5s;
+
 }
 
-header nav {
-	float: right;
+.navbar .navbar-brand {
+    padding-left: 0px;
 }
 
-header nav ul {
-	margin: 0;
-	padding: 0;
-	display: flex;
-}
-
-header nav ul li {
-	list-style: none;
-}
-
-header nav ul li a {
-	height: 70px;
-	line-height: 70px;
-	padding: 0px 30px;
-	text-decoration: none;
-	display: block;
-	color: #fff;
-	transition: 0.5s;
-}
-
-header nav ul li a:hover {
-	color: #333;
-	background: #fff;
-	border-radius: 20px;
+.navbar .navbar-brand h1 {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .toggle {
-	color: white;
-	float: right;
-	font-size: 30px;
-	cursor: pointer;
-	display: none;
-	line-height: 70px;
+    display: none;
 }
 
-.welcome_area {
-	position: relative;
-	height: 1200px;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
+.navbar-expand-md .navbar-nav .nav-link {
+    transition-duration: 0.5s;
+    border-radius: 10px;
+    padding: 15px;
 }
+
+.navbar-expand-md .navbar-nav .nav-link:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Navigation bar ends */
+/* Title Starts  */
+.parallax {
+    background-color: #000000;
+    background-image: url(../img/page1.jpg);
+    background-attachment: fixed;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.owl-carousel .owl-item img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+div.type-wrap {
+    font-size: 50px;
+}
+
 
 .title {
-	font-size: 60px;
-	color: #fff;
-	padding-top: 250px;
-	text-align: center;
-	font-weight: bold;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
 }
 
-.email {
-	color: #fff;
-	text-align: center;
-	margin-bottom: 50px;
-	font-weight: bold;
-}
-
-.work img {
-	width: 60%;
-}
-
-.owl-carousel img {
-	height: 100%;
-	width: 100%;
-}
-
-/*About me*/
-.about {
-	z-index: -10;
-}
-
+/* Title Ends */
+/* About Starts  */
 .about h2 {
-	text-align: center;
-	font-size: 40px;
+    margin-top: 50px;
+    color: #000000;
+    text-align: center;
+    font-size: 40px;
+}
+
+hr {
+    border: 1px solid #000000;
+    width: 20%;
 }
 
 .about i {
-	font-size: 100px;
-	padding: 10px;
+    font-size: 100px;
+    padding: 10px;
 }
 
 .about p {
-	font-weight: 900;
+    font-weight: 900;
 }
 
 .single-promo {
-	margin: 10%;
-	border: 1px solid #3f8ed7;
-	font-size: 25px;
-	font-weight: 200;
-	padding: 20px 10px;
-	text-align: center;
-	background-color: #3f8ed7;
-	display: block;
-	position: relative;
-	overflow: hidden;
+    margin: 10%;
+    border: 1px solid #333333;
+    font-size: 25px;
+    font-weight: 200;
+    padding: 20px 10px;
+    text-align: center;
+    background-color: #333333;
+    display: block;
+    position: relative;
+    overflow: hidden;
 }
 
 .single-promo:hover {
-	background-color: blue;
+    background-color: #000000;
 }
 
-.col-md-3 {
-	width: 50%;
-	float: left;
-}
+/* About Ends  */
 
-.col-6 {
-	width: 50%;
-	float: left;
-	position: relative;
-	min-height: 1px;
-	padding-right: 15px;
-	padding-left: 15px;
-}
-
-.promo-area {
-	color: #fff;
-	position: relative;
-	overflow: hidden;
-}
-
+/* My skills start  */
 .skills {
-	width: 100%;
-	margin-top: 50px;
-	margin-bottom: 50px;
+    text-align: center;
 }
 
 .skills h2 {
-	text-align: center;
+    margin-top: 50px;
+    color: #000000;
 }
 
-.owl-carousels {
-	margin-top: 30px;
+.skills p {
+    color: #666666;
+    font-size: 50px;
 }
 
-.skills-set {
-	text-align: center;
-	font-size: 50px;
-	color: #666;
+.skills img {
+    width: 100px;
+    height: 100px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
-.skills-set img {
-	width: 100px;
-	height: 100px;
+/* My skills ends  */
+
+/* My Certifications  */
+.certifications {
+    color: #000000;
+    text-align: center;
 }
 
-/* Projects */
-.myprotitle {
-	font-size: 40px;
+.certifications h2 {
+    margin-top: 50px;
+
 }
 
-.project p {
-	color: #fff;
-	font-size: larger;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	visibility: hidden;
-	opacity: 0;
-	transition: opacity 1s, visibility 1s;
-	width: 100%;
+.certifications img {
+    height: 254px;
+    padding: 20px;
 }
 
-.project img {
-	display: block;
-	width: 100%;
-	height: 100%;
-	transition-duration: 1s;
+/* My Certifications Ends  */
+
+
+/* Footer  */
+.footer i {
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
 }
 
-.project img {
-	width: 100%;
-}
-
-.project:hover img {
-	filter: blur(5px) grayscale(100%);
-}
-
-.project:hover p {
-	visibility: visible;
-	opacity: 1;
-}
-
-.project p a {
-	line-height: 50px;
-	color: #8c43ff;
-	padding: 10px 25px 10px 25px;
-	border: 1px solid #8c43ff;
-	border-radius: 25px;
-	transition-duration: 1s;
-}
-
-.project p a:hover {
-	text-decoration: none;
-	color: #fff;
-	background-color: #8c43ff;
-}
-
-.project {
-	margin-bottom: 50px;
-}
-
-/*Achivements*/
-.certification {
-	margin-top: 100px;
-	text-align: center;
-}
-
-.certificate img {
-	height: 250px;
-	padding: 20px;
-	margin-bottom: 50px;
-}
-
-/*Footer*/
-.fan {
-	padding: 20px;
-	font-size: 25px;
-
-	text-align: center;
-	text-decoration: none;
-}
-
-.fan:hover {
-	opacity: 0.7;
+.footer i:hover {
+    opacity: 0.7;
 }
 
 .fa-facebook-f {
-	background: #3b5998;
-	color: white;
+    background: #3b5998;
+    color: white;
 }
 
 .fa-twitter {
-	background: #55acee;
-	color: white;
+    background: #55acee;
+    color: white;
 }
 
 .fa-linkedin {
-	background: #007bb5;
-	color: white;
+    background: #007bb5;
+    color: white;
 }
 
 .fa-instagram {
-	background: #9c2dbb;
-	color: white;
+    background: #9c2dbb;
+    color: white;
 }
 
 .fa-github {
-	background: #212529;
-	color: white;
+    background: #212529;
+    color: white;
 }
-
-.footer a:hover {
-	color: #fff;
-}
-
 
 .footer {
-	background-color: #25499f;
+    background-color: #333333;
 }
+
+.copyright {
+    text-align: center;
+    background-color: #000000;
+    padding: 10px;
+}
+
+/* Footer Ends  */

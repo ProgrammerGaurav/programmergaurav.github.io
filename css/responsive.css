@@ -1,80 +1,38 @@
-@media (max-width:991px) {
-	header {
-		padding: 0 20px
-	}
+@media(max-width:768px) {
+    div.type-wrap {
+        font-size: 20px;
+    }
 
-	.toggle {
-		display: block
-	}
+    .navbar-expand-md .navbar-nav {
+        margin-left: 0;
+        text-align: center;
+        background-color: #000000;
 
-	header nav {
-		border-radius: 20px;
-		position: absolute;
-		width: 80%;
-		height: 100%;
-		margin-left: 10%;
-		margin-right: 10%;
-		transition: 0.2s;
-		top: 1000px;
-		left: -100%
-	}
+    }
 
-	header nav  ul {
-		border-radius: 20px;
-		background: #333;
-		display: block;
-		text-align: center
-	}
+    .navbar-brand {
+        padding: 10px;
+    }
 
-	.menu {
-		top: 70px;
-		left: 0px
-	}
+    .toggle {
+        display: block;
+    }
 
-	.single-promo {
-		margin: 5%
-	}
+    .about i {
+        font-size: 50px;
+        padding: 10px
+    }
 
-	.about {
-	}
+    .owl-carousel .owl-item img {
+        width: 100%;
+    }
 
-	.title {
-		font-size: 20px;
-		padding-top: 150px
-	}
+    .single-promo {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 
-	.email {
-		font-size: 10px
-	}
-
-	.welcome_area {
-		height: 600px
-	}
-
-	.about i {
-		font-size: 50px;
-		padding: 10px
-	}
-
-	.single-promo {
-		margin: 5%;
-		padding: 5px 15px
-	}
-
-	.col-6 {
-		padding-right: 5px;
-		padding-left: 5px
-	}
-	.footer img {
-	width: 80%;
-}
-
-
-}
-
-@media (min-width:991px) {
-	.about {
-		margin-top: 200px
-	}
-
+    .footer img {
+        width: 80%;
+    }
 }

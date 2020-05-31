@@ -26,189 +26,226 @@
 	<meta property="og:url" content="https://programmergaurav.me" />
 	<meta property="og:image" content="https://programmergaurav.me/img/icon.jpg" />
 	<link rel="icon" href="img/icon.jpg">
-	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/responsive.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
 <body>
-	<section class="welcome_area" style="background-image: url(background.png)">
-		<!-- Navigation Bar Start -->
-		<header class="navbars">
-			<div class="logo">
-				<h1>Programmer Gaurav</h1>
-			</div>
-			<nav>
-				<ul>
-					<li class="navopt"><a href="#">Home</a></li>
-					<li class="navopt"><a href="#work">Work</a></li>
-					<li class="navopt"><a href="#skills">Skills</a></li>
-					<li class="navopt"><a href="#about">About</a></li>
-					<li class="navopt"><a href="#footer">Contact</a></li>
+	<!-- Loader screen -->
+	<div class="se-pre-con"></div>
+	<!-- Loader Screen Ends -->
+	<!-- Navigation Bar Starts -->
+	<div class="container-fluid m-0 p-0">
+		<nav class="navbar navbar-expand-md navbar-dark py-0 m-0">
+			<a class="navbar-brand" href="#">
+				<h1 class="">ProgrammerGaurav</h1>
+			</a>
+			<a class="toggle" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<h2>
+					<i class="fas fa-bars"></i>
+				</h2>
+			</a>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#home">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#about">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#skills">Skills</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="#footer">Contact</a>
+					</li>
 				</ul>
-			</nav>
-			<div class="toggle">
-				<i class="fa fa-bars"></i>
 			</div>
-		</header>
-		<!-- Navigation Bar Ends -->
-		<!-- Title Start -->
-		<div class="title">
-			<div class="type-wrap">
-				<div id="typed-strings" class="typing">
-					<h2>Hi, I am Gaurav.</h2>
-					<h2>I am a Full Stack Developer.</h2>
-					<h2>I Love coding.</h2>
+		</nav>
+	</div>
+	<!-- Navigation Bar Ends -->
+	<!-- Header Starts -->
+	<section>
+		<div class="parallax" id="home">
+			<!-- Title Starts -->
+			<div class="title">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<div class="type-wrap mb">
+								<div id="typed-strings" class="typing">
+									<h2>Hi, I am Gaurav.</h2>
+									<h2>I am a Full Stack Developer.</h2>
+									<h2>I Love Coding.</h2>
+								</div>
+								<span id="typed" style="white-space:pre;"></span>
+							</div>
+							<div>
+								<p>If you need a Website, then email me may be.</p>
+							</div>
+						</div>
+						<div class="col-12" id="work">
+							<div class="owl-carousel work">
+								<div><img alt="Sample Work" src="img/work1.png"></div>
+								<div><img alt="Sample Work" src="img/work2.png"></div>
+								<div><img alt="Sample Work" src="img/work3.png"></div>
+							</div>
+						</div>
+					</div>
 				</div>
-				<span id="typed" style="white-space:pre;"></span>
 			</div>
+			<!-- Title Ends -->
 		</div>
-		<div class="email">
-			<p>If you need a Website, then email me may be.</p>
-		</div>
-		<div class="owl-carousel work col-12 col-xl-10 mx-auto">
-			<div><img alt="Sample Work" src="img/device1.png"></div>
-			<div><img alt="Sample Work" src="img/device2.png"></div>
-			<div><img alt="Sample Work" src="img/device3.png"></div>
-		</div>
-		<!-- Title End -->
 	</section>
-	<!-- About me starts -->
-	<div id="about" class="about">
-		<h2>About Me</h2>
-		<div class="promo-area">
+	<!-- Header Ends -->
+	<!-- About Me Starts -->
+	<section>
+		<div class="about" id="about">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-3 col-6">
+					<div class="col-12 ">
+						<h2 class="wow animate__animated animate__zoomInUp" data-wow-duration="2s">About Me</h2>
+						<hr class="wow animate__animated animate__lightSpeedInRight" data-wow-delay="1s"
+							data-wow-duration="2s">
+					</div>
+					<div class="col-lg-3 col-6 wow animate__animated animate__backInLeft">
 						<div class="single-promo">
-							<i class="fadeInRight wow fa fa-tachometer-alt"></i>
-							<p class="wow fadeInLeft">Fast</p>
+							<i class="fas fa-tachometer-alt"></i>
+							<p class=" fadeInRight">Fast</p>
 						</div>
 					</div>
-					<div class="col-md-3 col-6">
+					<div class="col-lg-3 col-6 wow animate__animated animate__backInLeft" data-wow-delay="0.2s">
 						<div class="single-promo">
-							<i class="fadeInLeft wow fa fa-lightbulb"></i>
-							<p class="wow fadeInRight">Initative</p>
+							<i class="fadeInLeft fa fa-lightbulb"></i>
+							<p class=" fadeInRight">Intuitive</p>
 						</div>
 					</div>
-					<div class="col-md-3 col-6">
+					<div class="col-lg-3 col-6 wow animate__animated animate__backInLeft" data-wow-delay="0.4s">
 						<div class="single-promo">
-							<i class="fadeInRight wow fa fa-tablet"></i>
-							<p class="wow fadeInLeft">Responsive</p>
+							<i class="fas fa-tablet-alt"></i>
+							<p class=" fadeInRight">Responsive</p>
 						</div>
 					</div>
-					<div class="col-md-3 col-6">
+					<div class="col-lg-3 col-6 wow animate__animated animate__backInLeft" data-wow-delay="0.6s">
 						<div class="single-promo">
-							<i class="fadeInLeft wow fa fa-rocket" data-animation="fadeInLeft"></i>
-							<p class="wow fadeInRight">Dynamic</p>
+							<i class="fas fa-rocket"></i>
+							<p class=" fadeInRight">Dynamic</p>
 						</div>
-					</div>
-				</div>`
-			</div>
-		</div>
-	</div>
-	<!-- About me End -->
-	<!-- My skills start -->
-	<div id="skills" class="skills">
-		<h2>My skills</h2>
-		<div class="owl-carousels">
-			<div class="skills-set"><img src="img/html-5.svg" alt="">HTML5</div>
-			<div class="skills-set"><img src="img/css3.svg" alt="">CSS3</div>
-			<div class="skills-set"><img src="img/bootstrap.svg" alt="">BootStrap</div>
-			<div class="skills-set"><img src="img/js.svg" alt="">JavaScript</div>
-			<div class="skills-set"><img src="img/jquery.svg" alt="">Jquery</div>
-			<div class="skills-set"><img src="img/django.svg" alt="">Django</div>
-		</div>
-	</div>
-	<!-- My skills End -->
-
-	<!-- My projects starts -->
-	<!-- <div id="work" class="container-fluid">
-		<div class="row text-center d-flex justify-content-center">
-			<div class="col-12 myprotitle">
-				My projects
-			</div>
-			<div class="col-12 col-xl-3 mx-1 my-3 project">
-				<img src="img/ddos.png" alt="">
-				<p>
-					Happy Birthday
-					<br>
-					<a href="#">
-						Visit
-					</a>
-				</p>
-			</div>
-			<div class="col-12 col-xl-3 mx-1 my-3 project">
-				<img src="img/ddos.png" alt="">
-				<p>
-					Happy Birthday
-					<br>
-					<a href="#">
-						Visit
-					</a>
-				</p>
-			</div>
-			<div class="col-12 col-xl-3 mx-1 my-3 project">
-				<img src="img/ddos.png" alt="">
-				<p>
-					Happy Birthday
-					<br>
-					<a href="#">
-						Visit
-					</a>
-				</p>
-			</div>
-		</div>
-	</div> -->
-	<!-- My projects Ends -->
-
-	<!-- My Achivements -->
-	<div id="certification" class="certification">
-		<h2>Certifications</h2>
-		<div class="container">
-			<div class="row">
-				<div class="owl-carousels2">
-					<div class="certificate">
-						<a target="blank"
-							href="https://www.freecodecamp.org/certification/programmergaurav/responsive-web-design"><img
-								src="img/responsivewebdesign.jpg" alt=""></a>
-					</div>
-					<div class="certificate">
-						<a href="#" target="blank"><img src="img/html.jpg" alt=""></a>
-					</div>
-					<div class="certificate">
-						<a href="#" target="blank"><img src="img/css.jpg" alt=""></a>
-					</div>
-					<div class="certificate">
-						<a href="#" target="blank"><img src="img/js.jpg" alt=""></a>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<!-- My Achivements Ends -->
+		</div>
+	</section>
+	<!-- My Skills -->
+	<section>
+		<div class="skills" id="skills">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12">
+						<h2 class="wow animate__animated animate__zoomInUp" data-wow-duration="2s">My SuperPowers</h2>
+						<hr class="wow animate__animated animate__lightSpeedInRight" data-wow-delay="1s"
+							data-wow-duration="2s">
+					</div>
+					<div class="col-12 col-md-12 col-xl-12 wow animate__animated animate__fadeInUp">
+						<div class="owl-carousel skill">
+							<div>
+								<img alt="Sample Work" src="img/html-5.svg">
+								<p>HTML5</p>
+							</div>
+							<div>
+								<img alt="Sample Work" src="img/css3.svg">
+								<p>CSS3</p>
+							</div>
+							<div>
+								<img alt="Sample Work" src="img/bootstrap.svg">
+								<p>BootStrap</p>
+							</div>
+							<div>
+								<img alt="Sample Work" src="img/js.svg">
+								<p>JavaScript</p>
+							</div>
+							<div>
+								<img alt="Sample Work" src="img/jquery.svg">
+								<p>jQuery</p>
+							</div>
+							<div>
+								<img alt="Sample Work" src="img/django.svg">
+								<p>Django</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- My skills Ends -->
+	<!-- Certifications -->
+	<section id="certifications" class="certifications">
+		<h2 class="wow animate__animated animate__zoomInUp" data-wow-duration="2s">Certifications</h2>
+		<hr class="wow animate__animated animate__lightSpeedInRight" data-wow-delay="1s" data-wow-duration="2s">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 wow animate__animated animate__fadeInUp">
+					<div class="owl-carousel certificate">
+						<div>
+							<a href="https://www.freecodecamp.org/certification/programmergaurav/responsive-web-design">
+								<img alt="Responsive Web Design" src="img/responsivewebdesign.jpg">
+							</a>
+							<p>Responsive WebDesign</p>
+						</div>
+						<div>
+							<a href="https://www.coursera.org/verify/QA3J57T26LFA">
+								<img alt="Responsive Web Design" src="img/courserawebdev.jpg">
+							</a>
+							<p>HTML, CSS, and Javascript for Web Developers</p>
+						</div>
+						<div>
+							<a href="https://www.coursera.org/verify/MRMM7JGWZX45">
+								<img alt="Responsive Web Design" src="img/courseragit.jpg">
+							</a>
+							<p>Git and Github</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Certifications Ends -->
 	<!-- Footer Start -->
-	<div id="footer" class="footer text-center p-5">
-		<h3 class="text-light"><img alt="programmergaurav" src="img/namewhite.png" width="25%"></h3>
-		<a target="blank" href="https://github.com/ProgrammerGaurav"><i class="fan fab fa-github"></i></a>
-		<a target="blank" href="https://www.facebook.com/profile.php?id=100026746380141"><i
-				class="fan fab fa-facebook-f"></i></a>
-		<a target="blank" href="https://www.instagram.com/programmergaurav/"><i class="fab fan fa-instagram"></i></a>
-		<a target="blank" href="https://www.linkedin.com/in/gaurav-gupta-ab8b7a175/"><i
-				class="fan fab fa-linkedin"></i></a>
-	</div>
+	<section>
+		<div id="footer" class="footer text-center p-5">
+			<h3 class="text-light"><img alt="programmergaurav" src="img/namewhite.png" width="25%"></h3>
+			<a target="blank" href="https://github.com/ProgrammerGaurav">
+				<i class="fab fa-github"></i>
+			</a>
+			<a target="blank" href="https://www.facebook.com/profile.php?id=100026746380141">
+				<i class="fab fa-facebook-f"></i>
+			</a>
+			<a target="blank" href="https://www.instagram.com/programmergaurav/">
+				<i class="fab fa-instagram"></i>
+			</a>
+			<a target="blank" href="https://www.linkedin.com/in/gaurav-gupta-ab8b7a175/">
+				<i class="fab fa-linkedin"></i>
+			</a>
+		</div>
+		<div class="copyright">
+			Gaurav Gupta &copy;2019
+		</div>
+	</section>
 	<!-- Footer Ends -->
-	<!-- Schema Starts -->
 	<script type="application/ld+json">
 		{
 			"@context": "http://schema.org",
 			"@type": "Person",
 			"name": "programmergaurav",
-			"url": "https://programmergaurav.github.io",
+			"url": "https://programmergaurav.me",
 			"sameAs": ["https://www.instagram.com/programmergaurav/",
 				"https://www.linkedin.com/in/gaurav-gupta-ab8b7a175/",
 				"https://twitter.com/ProgrammerGRG",
@@ -378,11 +415,11 @@
 		Programming can be done using a variety of computer "languages," such as SQL, Java, Python, and C++.
 	</div>
 	<!-- seo text end -->
-	<script src="js/typed.min.js"></script>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/popper.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/typed.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/wow.min.js"></script>
 	<script src="js/script.js"></script>
 </body>
