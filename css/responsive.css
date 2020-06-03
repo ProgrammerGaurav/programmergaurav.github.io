@@ -35,4 +35,8 @@
     .footer img {
         width: 80%;
     }
+
+    .footer i {
+        padding: 12px;
+    }
 }
