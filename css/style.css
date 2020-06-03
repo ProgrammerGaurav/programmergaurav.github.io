@@ -80,6 +80,10 @@ div.type-wrap {
   font-size: 50px;
 }
 
+.type-wrap #typed {
+  white-space: pre;
+}
+
 .title {
   position: relative;
   color: #fff;
