@@ -177,7 +177,6 @@ hr {
 /* Footer  */
 .footer i {
   padding: 20px;
-  margin: 4px;
   font-size: 25px;
   text-align: center;
   text-decoration: none;
@@ -214,6 +213,11 @@ hr {
 
 .footer {
   background-color: #333333;
+}
+
+.footer .soc {
+  display: inline-block;
+  margin: 4px;
 }
 
 .copyright {
