@@ -21,9 +21,7 @@ body {
 }
 
 /* Loader Screen Ends  */
-
 section {
-
     /* scroll-snap-align: start; */
 }
 
@@ -34,7 +32,6 @@ section {
     z-index: 999999;
     background-color: transparent;
     transition-duration: 0.5s;
-
 }
 
 .navbar .navbar-brand {
@@ -83,6 +80,9 @@ div.type-wrap {
     font-size: 50px;
 }
 
+.type-wrap #typed {
+    white-space: pre;
+}
 
 .title {
     position: relative;
@@ -91,9 +91,7 @@ div.type-wrap {
     font-weight: bold;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-
 }
 
 /* Title Ends */
@@ -137,7 +135,6 @@ hr {
 }
 
 /* About Ends  */
-
 /* My skills start  */
 .skills {
     text-align: center;
@@ -161,7 +158,6 @@ hr {
 }
 
 /* My skills ends  */
-
 /* My Certifications  */
 .certifications {
     color: #000000;
@@ -170,7 +166,6 @@ hr {
 
 .certifications h2 {
     margin-top: 50px;
-
 }
 
 .certifications img {
@@ -179,8 +174,6 @@ hr {
 }
 
 /* My Certifications Ends  */
-
-
 /* Footer  */
 .footer i {
     padding: 20px;
@@ -220,6 +213,10 @@ hr {
 
 .footer {
     background-color: #333333;
+}
+
+.footer .col-3 {
+    width: auto;
 }
 
 .copyright {

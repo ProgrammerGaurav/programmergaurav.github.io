@@ -177,6 +177,7 @@ hr {
 /* Footer  */
 .footer i {
   padding: 20px;
+  margin: 4px;
   font-size: 25px;
   text-align: center;
   text-decoration: none;
@@ -186,7 +187,7 @@ hr {
   opacity: 0.7;
 }
 
-.fa-facebook-f {
+.fa-facebook {
   background: #3b5998;
   color: white;
 }
