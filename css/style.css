@@ -213,7 +213,12 @@ hr {
 }
 
 .footer {
-  background-color: #333333;
+  background-color: #000000;
+  background-image: url(../img/page1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .footer .soc {
