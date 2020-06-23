@@ -12,6 +12,12 @@
 
     .navbar-brand {
         padding: 10px;
+
+    }
+
+    .navbar-nav {
+        border-radius: 10px;
+        margin-bottom: 30px;
     }
 
     .toggle {
