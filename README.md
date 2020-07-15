@@ -4,3 +4,4 @@ I am a Full Stack Developer.
 I Love Coding.
 # My Skills
 ![N|Solid](https://programmergaurav.me/img/html-5.svg) ![N|Solid](https://programmergaurav.me/img/css3.svg) ![N|Solid](https://programmergaurav.me/img/js.svg) ![N|Solid](https://programmergaurav.me/img/bootstrap.svg) ![N|Solid](https://programmergaurav.me/img/jquery.svg ) ![](./img/django.svg =100x100)
+<img src="/img/django.svg" alt="drawing" width="200"/>
