@@ -7,4 +7,4 @@ I Love Coding.
 <img src="/img/bootstrap.svg" alt="drawing" width="100"/>
 <img src="/img/js.svg" alt="drawing" width="100"/>
 <img src="/img/jquery.svg" alt="drawing" width="100"/>
-<img src="/img/django.svg" alt="drawing" width="100"/>
+<img src="/img/django.svg" alt="drawing" width="200"/>
