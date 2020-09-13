@@ -186,7 +186,7 @@ hr {
     opacity: 0.7;
 }
 
-.fa-facebook-f {
+.fa-facebook {
     background: #3b5998;
     color: white;
 }
@@ -212,11 +212,17 @@ hr {
 }
 
 .footer {
-    background-color: #333333;
+    background-color: #000000;
+    background-image: url(../img/page1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.footer .col-3 {
-    width: auto;
+.footer .soc {
+    display: inline-block;
+    margin: 4px;
 }
 
 .copyright {
@@ -226,3 +232,23 @@ hr {
 }
 
 /* Footer Ends  */
+
+/* Contact Starts */
+.contact {
+    padding: 50px 20px;
+    color: #333333;
+    background-color: #FAFAFA;
+
+    button {
+        width: 100%;
+        background-color: #333333;
+        color: #fff;
+    }
+
+    button:hover {
+        color: #fff;
+        background-color: #444444;
+    }
+}
+
+/* Contact Ends */

@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu");
-
 html,
 body {
   margin: 0;
@@ -31,7 +30,8 @@ section {
   width: 100%;
   z-index: 999999;
   background-color: transparent;
-  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
 }
 
 .navbar .navbar-brand {
@@ -48,7 +48,8 @@ section {
 }
 
 .navbar-expand-md .navbar-nav .nav-link {
-  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
   border-radius: 10px;
   padding: 15px;
 }
@@ -91,7 +92,8 @@ div.type-wrap {
   font-weight: bold;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 /* Title Ends */
@@ -169,7 +171,6 @@ hr {
 }
 
 .certifications img {
-  width: 408px;
   height: 254px;
   padding: 20px;
 }
@@ -233,3 +234,23 @@ hr {
 }
 
 /* Footer Ends  */
+/* Contact Starts */
+.contact {
+  padding: 50px 20px;
+  color: #333333;
+  background-color: #FAFAFA;
+}
+
+.contact button {
+  width: 100%;
+  background-color: #333333;
+  color: #fff;
+}
+
+.contact button:hover {
+  color: #fff;
+  background-color: #444444;
+}
+
+/* Contact Ends */
+/*# sourceMappingURL=style.css.map */
