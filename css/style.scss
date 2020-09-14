@@ -32,31 +32,38 @@ section {
     z-index: 999999;
     background-color: transparent;
     transition-duration: 0.5s;
+
+    .navbar-brand {
+        padding-left: 0px;
+
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+    }
+
+    .toggle {
+        display: none;
+    }
+
+    .navbar-nav {
+
+        .nav-link {
+            transition-duration: 0.5s;
+            border-radius: 10px;
+            padding: 15px;
+        }
+
+        .nav-link:hover {
+            background-color: #ffffff;
+            color: #000000;
+        }
+    }
 }
 
-.navbar .navbar-brand {
-    padding-left: 0px;
-}
 
-.navbar .navbar-brand h1 {
-    font-size: 24px;
-    font-weight: bold;
-}
 
-.toggle {
-    display: none;
-}
 
-.navbar-expand-md .navbar-nav .nav-link {
-    transition-duration: 0.5s;
-    border-radius: 10px;
-    padding: 15px;
-}
-
-.navbar-expand-md .navbar-nav .nav-link:hover {
-    background-color: #ffffff;
-    color: #000000;
-}
 
 /* Navigation bar ends */
 /* Title Starts  */
@@ -162,15 +169,15 @@ hr {
 .certifications {
     color: #000000;
     text-align: center;
-}
 
-.certifications h2 {
-    margin-top: 50px;
-}
+    h2 {
+        margin-top: 50px;
+    }
 
-.certifications img {
-    height: 254px;
-    padding: 20px;
+    img {
+        height: 254px;
+        padding: 20px;
+    }
 }
 
 /* My Certifications Ends  */
