@@ -5,6 +5,7 @@ body {
   padding: 0;
   color: #ffffff;
   font-family: 'Ubuntu', sans-serif;
+  background-color: #fafafa;
 }
 
 hr {
@@ -12,6 +13,144 @@ hr {
   width: 20%;
 }
 
+/* Cursor Starts */
+.cursor {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  pointer-events: none;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+  -webkit-animation: cursorAnim .5s infinite alternate;
+          animation: cursorAnim .5s infinite alternate;
+  mix-blend-mode: exclusion;
+  z-index: 9999999;
+}
+
+.cursor::after {
+  content: "";
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  border: 8px solid gray;
+  border-radius: 50%;
+  opacity: .5;
+  -webkit-animation: cursorAnim2 .5s infinite alternate;
+          animation: cursorAnim2 .5s infinite alternate;
+}
+
+.contrast {
+  -webkit-animation: contrast .5s forwards;
+          animation: contrast .5s forwards;
+}
+
+.expand {
+  -webkit-animation: expand .8s forwards;
+          animation: expand .8s forwards;
+}
+
+@-webkit-keyframes cursorAnim {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+}
+
+@keyframes cursorAnim {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+}
+
+@-webkit-keyframes cursorAnim2 {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(0.1);
+            transform: scale(0.1);
+  }
+}
+
+@keyframes cursorAnim2 {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(0.1);
+            transform: scale(0.1);
+  }
+}
+
+@-webkit-keyframes expand {
+  0% {
+    -webkit-transform: scale(0.1);
+            transform: scale(0.1);
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes expand {
+  0% {
+    -webkit-transform: scale(0.1);
+            transform: scale(0.1);
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@-webkit-keyframes contrast {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(0.1);
+            transform: scale(0.1);
+  }
+}
+
+@keyframes contrast {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(0.1);
+            transform: scale(0.1);
+  }
+}
+
+/* Cursor Ends*/
 /* Loader Screen  */
 .se-pre-con {
   position: fixed;
