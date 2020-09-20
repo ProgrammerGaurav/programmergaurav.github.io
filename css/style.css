@@ -203,7 +203,7 @@ hr {
 /* Title Starts  */
 .parallax {
   background-color: #000000;
-  background-image: url(../img/page1.jpg);
+  background-image: url(../img/background.webp);
   background-attachment: fixed;
   height: 100vh;
   background-position: center;
