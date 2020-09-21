@@ -1,5 +1,23 @@
+const cursor = document.querySelector('.cursor');
+document.addEventListener('mousemove', e => {
+    cursor.setAttribute("style", "top: " + (e.pageY - 50) + "px; left: " + (e.pageX - 50) + "px;")
+})
+document.addEventListener('mousedown', () => {
+    cursor.classList.add("contrast")
+    cursor.classList.remove("expand")
+})
+document.addEventListener('mouseup', () => {
+    cursor.classList.add("expand")
+    cursor.classList.remove("contrast")
+})
+var frm = $('#contact');
+frm.submit(function (e) {
+    e.preventDefault();
+    let name = document.getElementById("name").value;
+    let messege = document.getElementById("messege").value;
+    var win = window.open(`https://wa.me/8450996596?text=Hi%20I%27m%20${name},%20${messege}`, '_blank');
+});
 new WOW().init();
-
 $(document).ready(function () {
     $(".se-pre-con").fadeOut("slow");
     $(window).scroll(function () {
