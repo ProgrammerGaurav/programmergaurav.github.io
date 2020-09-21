@@ -20,6 +20,11 @@ body {
 }
 
 /* Loader Screen Ends  */
+hr {
+    border: 1px solid #000000;
+    width: 20%;
+}
+
 /* Navigation bar */
 .navbar {
     position: fixed;
@@ -99,25 +104,22 @@ div.type-wrap {
 
 /* Title Ends */
 /* About Starts  */
-.about h2 {
-    margin-top: 50px;
-    color: #000000;
-    text-align: center;
-    font-size: 40px;
-}
+.about {
+    h2 {
+        margin-top: 50px;
+        color: #000000;
+        text-align: center;
+        font-size: 40px;
+    }
 
-hr {
-    border: 1px solid #000000;
-    width: 20%;
-}
+    i {
+        font-size: 100px;
+        padding: 10px;
+    }
 
-.about i {
-    font-size: 100px;
-    padding: 10px;
-}
-
-.about p {
-    font-weight: 900;
+    p {
+        font-weight: 900;
+    }
 }
 
 .single-promo {
@@ -131,33 +133,36 @@ hr {
     display: block;
     position: relative;
     overflow: hidden;
+    transition: all 0.3s;
+    box-shadow: 0 0 50px 5px rgb(177, 177, 177);
 }
 
 .single-promo:hover {
     background-color: #000000;
+    transform: scale(1.1);
 }
 
 /* About Ends  */
 /* My skills start  */
 .skills {
     text-align: center;
-}
 
-.skills h2 {
-    margin-top: 50px;
-    color: #000000;
-}
+    h2 {
+        margin-top: 50px;
+        color: #000000;
+    }
 
-.skills p {
-    color: #666666;
-    font-size: 50px;
-}
+    p {
+        color: #666666;
+        font-size: 50px;
+    }
 
-.skills img {
-    width: 100px;
-    height: 100px;
-    padding-right: 20px;
-    padding-left: 20px;
+    img {
+        width: 100px;
+        height: 100px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
 }
 
 /* My skills ends  */
@@ -172,47 +177,12 @@ hr {
 
     img {
         height: 254px;
-        padding: 20px;
+        padding: 10px;
     }
 }
 
 /* My Certifications Ends  */
 /* Footer  */
-.footer i {
-    padding: 20px;
-    font-size: 25px;
-    text-align: center;
-    text-decoration: none;
-}
-
-.footer i:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-    background: #3b5998;
-    color: white;
-}
-
-.fa-twitter {
-    background: #55acee;
-    color: white;
-}
-
-.fa-linkedin {
-    background: #007bb5;
-    color: white;
-}
-
-.fa-instagram {
-    background: #9c2dbb;
-    color: white;
-}
-
-.fa-github {
-    background: #212529;
-    color: white;
-}
 
 .footer {
     background-color: #000000;
@@ -221,11 +191,48 @@ hr {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
 
-.footer .soc {
-    display: inline-block;
-    margin: 4px;
+    i {
+        padding: 20px;
+        font-size: 25px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    i:hover {
+        opacity: 0.7;
+    }
+
+    .fa-facebook {
+        background: #3b5998;
+        color: white;
+    }
+
+    .fa-twitter {
+        background: #55acee;
+        color: white;
+    }
+
+    .fa-linkedin {
+        background: #007bb5;
+        color: white;
+    }
+
+    .fa-instagram {
+        background: #9c2dbb;
+        color: white;
+    }
+
+    .fa-github {
+        background: #212529;
+        color: white;
+    }
+
+
+    .soc {
+        display: inline-block;
+        margin: 4px;
+    }
 }
 
 .copyright {
