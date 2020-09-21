@@ -6,96 +6,9 @@ body {
     padding: 0;
     color: #ffffff;
     font-family: 'Ubuntu', sans-serif;
-    background-color: #fafafa;
+    /* scroll-snap-type: y mandatory; */
 }
 
-hr {
-    border: 1px solid #000000;
-    width: 20%;
-}
-
-/* Cursor Starts */
-.cursor {
-    top: -100px;
-    width: 100px;
-    height: 100px;
-    border: 1px solid #fff;
-    background-color: #fff;
-    border-radius: 50%;
-    position: absolute;
-    pointer-events: none;
-    transition-duration: 200ms;
-    transition-timing-function: ease-out;
-    animation: cursorAnim .5s infinite alternate;
-    mix-blend-mode: exclusion;
-    z-index: 9999999;
-}
-
-.cursor::after {
-    content: "";
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    border: 8px solid gray;
-    border-radius: 50%;
-    opacity: .5;
-
-    animation: cursorAnim2 .5s infinite alternate;
-}
-
-.contrast {
-    animation: contrast .5s forwards;
-}
-
-.expand {
-    animation: expand .8s forwards;
-}
-
-@keyframes cursorAnim {
-    from {
-        transform: scale(1);
-    }
-
-    to {
-        transform: scale(.7);
-    }
-}
-
-@keyframes cursorAnim2 {
-    from {
-        transform: scale(1);
-    }
-
-    to {
-        transform: scale(.1);
-    }
-}
-
-@keyframes expand {
-    0% {
-        transform: scale(.1);
-    }
-
-    50% {
-        transform: scale(1.2);
-    }
-
-    100% {
-        transform: scale(1);
-    }
-}
-
-@keyframes contrast {
-    from {
-        transform: scale(1);
-    }
-
-    to {
-        transform: scale(.1);
-    }
-}
-
-/* Cursor Ends*/
 /* Loader Screen  */
 .se-pre-con {
     position: fixed;
@@ -108,6 +21,9 @@ hr {
 }
 
 /* Loader Screen Ends  */
+section {
+    /* scroll-snap-align: start; */
+}
 
 /* Navigation bar */
 .navbar {
@@ -128,6 +44,7 @@ hr {
 
     .toggle {
         display: none;
+        color: #fff;
     }
 
     .navbar-nav {
@@ -145,16 +62,34 @@ hr {
     }
 }
 
+
+
+
+
 /* Navigation bar ends */
 /* Title Starts  */
 .parallax {
     background-color: #000000;
-    background-image: url(../img/background.webp);
+    background-image: url(../img/page1.jpg);
     background-attachment: fixed;
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.owl-carousel .owl-item img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+div.type-wrap {
+    font-size: 50px;
+}
+
+.type-wrap #typed {
+    white-space: pre;
 }
 
 .title {
@@ -165,85 +100,70 @@ hr {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-    .owl-carousel .owl-item img {
-        margin-left: auto;
-        margin-right: auto;
-        width: 80%;
-    }
-
-    .type-wrap {
-        font-size: 50px;
-
-        #typed {
-            white-space: pre;
-        }
-    }
 }
 
 /* Title Ends */
 /* About Starts  */
-.about {
-    h2 {
-        margin-top: 50px;
-        color: #000000;
-        text-align: center;
-        font-size: 40px;
-    }
+.about h2 {
+    margin-top: 50px;
+    color: #000000;
+    text-align: center;
+    font-size: 40px;
+}
 
-    i {
-        font-size: 100px;
-        padding: 10px;
-    }
+hr {
+    border: 1px solid #000000;
+    width: 20%;
+}
 
-    p {
-        font-weight: 900;
-    }
+.about i {
+    font-size: 100px;
+    padding: 10px;
+}
 
-    .single-promo {
-        margin: 10%;
-        border: 1px solid #333333;
-        font-size: 25px;
-        font-weight: 200;
-        padding: 20px 10px;
-        text-align: center;
-        background-color: #333333;
-        display: block;
-        position: relative;
-        overflow: hidden;
-        box-shadow: 0 10px 90px #666;
-        transition-duration: 0.5s;
-    }
+.about p {
+    font-weight: 900;
+}
 
-    .single-promo:hover {
-        background-color: #000000;
-    }
+.single-promo {
+    margin: 10%;
+    border: 1px solid #333333;
+    font-size: 25px;
+    font-weight: 200;
+    padding: 20px 10px;
+    text-align: center;
+    background-color: #333333;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.single-promo:hover {
+    background-color: #000000;
 }
 
 /* About Ends  */
 /* My skills start  */
 .skills {
     text-align: center;
-
-    h2 {
-        margin-top: 50px;
-        color: #000000;
-    }
-
-    p {
-        color: #666666;
-        font-size: 50px;
-    }
-
-    img {
-        width: 100px;
-        height: 100px;
-        padding-right: 20px;
-        padding-left: 20px;
-    }
 }
 
+.skills h2 {
+    margin-top: 50px;
+    color: #000000;
+}
 
+.skills p {
+    color: #666666;
+    font-size: 50px;
+}
+
+.skills img {
+    width: 100px;
+    height: 100px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
 
 /* My skills ends  */
 /* My Certifications  */
@@ -257,12 +177,48 @@ hr {
 
     img {
         height: 254px;
-        padding: 10px;
+        padding: 20px;
     }
 }
 
 /* My Certifications Ends  */
 /* Footer  */
+.footer i {
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer i:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3b5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55acee;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #9c2dbb;
+    color: white;
+}
+
+.fa-github {
+    background: #212529;
+    color: white;
+}
+
 .footer {
     background-color: #000000;
     background-image: url(../img/page1.jpg);
@@ -270,49 +226,11 @@ hr {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
 
-    i {
-        padding: 20px;
-        font-size: 25px;
-        text-align: center;
-        text-decoration: none;
-    }
-
-    .soc {
-        display: inline-block;
-        margin: 4px;
-    }
-
-    .footer i:hover {
-        opacity: 0.7;
-    }
-
-    .fa-facebook {
-        background: #3b5998;
-        color: white;
-    }
-
-    .fa-twitter {
-        background: #55acee;
-        color: white;
-    }
-
-    .fa-linkedin {
-        background: #007bb5;
-        color: white;
-    }
-
-    .fa-instagram {
-        background: #9c2dbb;
-        color: white;
-    }
-
-    .fa-github {
-        background: #212529;
-        color: white;
-    }
-
-
+.footer .soc {
+    display: inline-block;
+    margin: 4px;
 }
 
 .copyright {

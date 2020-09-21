@@ -1,15 +1,3 @@
-const cursor = document.querySelector('.cursor');
-document.addEventListener('mousemove', e => {
-    cursor.setAttribute("style", "top: " + (e.pageY - 50) + "px; left: " + (e.pageX - 50) + "px;")
-})
-document.addEventListener('mousedown', () => {
-    cursor.classList.add("contrast")
-    cursor.classList.remove("expand")
-})
-document.addEventListener('mouseup', () => {
-    cursor.classList.add("expand")
-    cursor.classList.remove("contrast")
-})
 var frm = $('#contact');
 frm.submit(function (e) {
     e.preventDefault();
