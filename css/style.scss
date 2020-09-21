@@ -6,7 +6,6 @@ body {
     padding: 0;
     color: #ffffff;
     font-family: 'Ubuntu', sans-serif;
-    /* scroll-snap-type: y mandatory; */
 }
 
 /* Loader Screen  */
@@ -21,10 +20,6 @@ body {
 }
 
 /* Loader Screen Ends  */
-section {
-    /* scroll-snap-align: start; */
-}
-
 /* Navigation bar */
 .navbar {
     position: fixed;
