@@ -3,7 +3,7 @@ frm.submit(function (e) {
     e.preventDefault();
     let name = document.getElementById("name").value;
     let messege = document.getElementById("messege").value;
-    var win = window.open(`https://wa.me/8450996596?text=Hi%20I%27m%20${name},%20${messege}`, '_blank');
+    var win = window.open(`https://wa.me/+918450996596?text=Hi%20I%27m%20${name},%20${messege}`, '_blank');
 });
 new WOW().init();
 $(document).ready(function () {
