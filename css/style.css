@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   color: #ffffff;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 /* Loader Screen  */
@@ -31,7 +31,7 @@ hr {
   z-index: 999999;
   background-color: transparent;
   -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
+  transition-duration: 0.5s;
 }
 
 .navbar .navbar-brand {
@@ -50,7 +50,7 @@ hr {
 
 .navbar .navbar-nav .nav-link {
   -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
+  transition-duration: 0.5s;
   border-radius: 10px;
   padding: 15px;
 }
@@ -78,6 +78,15 @@ hr {
   width: 80%;
 }
 
+.owl-carousel.skill .owl-item.active.center img,
+.owl-carousel.skill .owl-item img {
+  transition: 0.25s;
+}
+
+.owl-carousel.skill .owl-item.active.center img:hover {
+  height: 150px;
+}
+
 div.type-wrap {
   font-size: 50px;
 }
@@ -94,7 +103,7 @@ div.type-wrap {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 /* Title Ends */
@@ -129,13 +138,13 @@ div.type-wrap {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   -webkit-box-shadow: 0 0 50px 5px #b1b1b1;
-          box-shadow: 0 0 50px 5px #b1b1b1;
+  box-shadow: 0 0 50px 5px #b1b1b1;
 }
 
 .single-promo:hover {
   background-color: #000000;
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 /* About Ends  */
@@ -240,7 +249,7 @@ div.type-wrap {
 .contact {
   padding: 50px 20px;
   color: #333333;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 .contact button {
