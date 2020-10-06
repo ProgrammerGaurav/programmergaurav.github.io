@@ -78,6 +78,15 @@ hr {
   width: 80%;
 }
 
+.owl-carousel.skill .owl-item.active.center img,
+.owl-carousel.skill .owl-item img {
+  transition: 0.25s;
+}
+
+.owl-carousel.skill .owl-item.active.center img:hover {
+  height: 150px;
+}
+
 div.type-wrap {
   font-size: 50px;
 }
@@ -240,7 +249,7 @@ div.type-wrap {
 .contact {
   padding: 50px 20px;
   color: #333333;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 .contact button {
