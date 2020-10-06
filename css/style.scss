@@ -131,6 +131,10 @@ div.type-wrap {
     overflow: hidden;
     transition: all 0.3s;
     box-shadow: 0 0 50px 5px rgb(177, 177, 177);
+
+    p {
+        user-select: none;
+    }
 }
 
 .single-promo:hover {
