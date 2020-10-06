@@ -150,7 +150,8 @@ div.type-wrap {
     padding: 20px;
     font-size: 25px;
     text-align: center;
-    text-decoration: none; }
+    text-decoration: none;
+    transition: 500ms; }
   .footer i:hover {
     opacity: 0.7; }
   .footer .fa-facebook {
