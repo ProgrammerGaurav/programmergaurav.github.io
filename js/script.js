@@ -1,8 +1,8 @@
 var frm = $('#contact');
 frm.submit(function (e) {
     e.preventDefault();
-    let name = document.getElementById("name").value;
-    let messege = document.getElementById("messege").value;
+    let name = document.getElementById("name").value.trim();
+    let messege = document.getElementById("messege").value.trim();
     var win = window.open(`https://wa.me/+918450996596?text=Hi%20I%27m%20${name},%20${messege}`, '_blank');
 });
 new WOW().init();
