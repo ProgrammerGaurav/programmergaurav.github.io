@@ -20,6 +20,30 @@ body {
 }
 
 /* Loader Screen Ends  */
+/* Top Slider */
+
+.top {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 88, 116);
+    bottom: 0;
+    right: 0;
+    color: #fff;
+    display: none;
+    z-index: 999999;
+
+    i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+    }
+}
+
+/* Top Slider Ends */
+
 hr {
     border: 1px solid #000000;
     width: 20%;
@@ -77,7 +101,6 @@ hr {
 .owl-carousel .owl-item img {
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
 }
 
 div.type-wrap {
@@ -96,6 +119,12 @@ div.type-wrap {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    .work {
+        img {
+            width: 50%;
+        }
+    }
 }
 
 /* Title Ends */

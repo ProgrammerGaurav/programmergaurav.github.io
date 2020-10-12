@@ -11,13 +11,21 @@ $(document).ready(function () {
     $(window).scroll(function () {
         if ($(document).scrollTop() > 50) {
             $(".navbar").css("background-color", "#111111");
+            $(".top").css("display", "block");
         } else {
             $(".navbar").css("background-color", "transparent");
+            $(".top").css("display", "none");
         }
     });
     $('.navbar-collapse a').click(function () {
         $(".navbar-collapse").collapse('hide');
     });
+});
+$(".top").click(function () {
+    $("html, body").animate({
+        scrollTop: 0
+    }, "slow");
+    return false;
 });
 
 var typed = new Typed("#typed", {
