@@ -39,175 +39,144 @@
 	<meta property="og:site_name" content="programmergaurav" />
 	<!-- Open Graph Protocol Ends  -->
 	<link rel="icon" href="img/icon.jpg">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-	<link rel="stylesheet" href="css/animate.min.css" />
+	<link rel="stylesheet" href="css/grid.min.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
 	<!-- Loader screen -->
 	<div class="se-pre-con"></div>
 	<!-- Loader Screen Ends -->
-	<!-- Top Slider -->
-	<div class="top">
-		<i class="fas fa-long-arrow-alt-up"></i>
-	</div>
-	<!-- Top Slider Ends  -->
-	<!-- Navigation Bar Starts -->
-	<div class="container-fluid m-0 p-0">
-		<nav class="navbar navbar-expand-lg navbar-dark py-0 m-0">
-			<a title="Title Of PortFolio" class="navbar-brand" href="/">
-				<h1 class="">Programmer Gaurav</h1>
+	<!-- Navbar Starts  -->
+	<nav class="navbar">
+		<div class="container">
+			<a href="#home" class="navbar-brand">
+				<h1> Programmer Gaurav</h1>
 			</a>
-			<a class="toggle" data-toggle="collapse" data-target="#navbarSupportedContent"
-				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<div class="h2">
-					<i class="fas fa-bars"></i>
-				</div>
-			</a>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active">
-						<a title="Home Navigation" class="nav-link" href="#home">Home</a>
-					</li>
-					<li class="nav-item">
-						<a title="About Navigation" class="nav-link" href="#about">About</a>
-					</li>
-					<li class="nav-item">
-						<a title="SKills Navigation" class="nav-link" href="#skills">Skills</a>
-					</li>
-					<li class="nav-item">
-						<a title="Contact Navigation" class="nav-link" href="/contact.html">Contact</a>
-					</li>
-				</ul>
+			<div class="toggle">
+				<i class="fas fa-bars"></i>
 			</div>
-		</nav>
-	</div>
-	<!-- Navigation Bar Ends -->
-	<!-- Header Starts -->
+			<div class="navbar-nav">
+				<a href="#home" class="nav-item">Home</a>
+				<a href="#about" class="nav-item">About</a>
+				<a href="#skills" class="nav-item">Skills</a>
+				<a href="#work" class="nav-item">Work</a>
+				<a href="#contact" class="nav-item">Contact</a>
+			</div>
+		</div>
+	</nav>
+	<!-- Navbar Ends  -->
+	<!-- Home starts  -->
 	<section>
 		<div class="parallax" id="home">
-			<!-- Title Starts -->
-			<div class="title">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-12">
-							<div class="type-wrap mb">
-								<div id="typed-strings" class="typing">
-									<h2>Hi, I am Gaurav.</h2>
-									<h2>I am a Full Stack Developer.</h2>
-									<h2>I Love Coding.</h2>
-								</div>
-								<span id="typed"></span>
-							</div>
-							<div>
-								<p>If you need a Website, then <a href="mailto:gauravgupta14376@gmail.com">email</a> me
-									may be.</p>
-							</div>
-						</div>
-						<div class="col-12" id="work">
-							<div class="owl-carousel work">
-								<div><img alt="Sample Work" src="img/work1.webp"></div>
-								<div><img alt="Sample Work" src="img/work2.webp"></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- Title Ends -->
-		</div>
-	</section>
-	<!-- Header Ends -->
-	<!-- About Me Starts -->
-	<section>
-		<div class="about" id="about">
-			<div class="container">
+			<div class="container-fluid home">
 				<div class="row">
-					<div class="col-12 ">
-						<h2 class="wow animate__animated animate__zoomInUp">About Me</h2>
-						<hr class="wow animate__animated animate__lightSpeedInRight" data-wow-duration="1s">
-					</div>
-					<div class="col-lg-3 col-6 wow animate__animated animate__backInLeft">
-						<div class="single-promo">
-							<i class="fas fa-tachometer-alt"></i>
-							<p class=" fadeInRight">Fast</p>
+					<div class="col-12 typing">
+						<div id="typed-strings">
+							<h2>Hi, I am Gaurav.</h2>
+							<h2>I am a Full Stack Developer.</h2>
+							<h2>I Love Coding.</h2>
 						</div>
+						<span id="typed"></span>
 					</div>
-					<div class="col-lg-3 col-6 wow animate__animated animate__backInLeft" data-wow-delay="0.2s">
-						<div class="single-promo">
-							<i class="fadeInLeft fa fa-lightbulb"></i>
-							<p class="fadeInRight">Intuitive</p>
-						</div>
+					<div class="col-12 subtitle">
+						<p>If you need a Website, then <a href="mailto:gauravgupta14376@gmail.com">email</a> me
+							may be.</p>
 					</div>
-					<div class="col-lg-3 col-6 wow animate__animated animate__backInLeft" data-wow-delay="0.4s">
-						<div class="single-promo">
-							<i class="fas fa-tablet-alt"></i>
-							<p class="fadeInRight">Responsive</p>
-						</div>
-					</div>
-					<div class="col-lg-3 col-6 wow animate__animated animate__backInLeft" data-wow-delay="0.6s">
-						<div class="single-promo">
-							<i class="fas fa-rocket"></i>
-							<p class="fadeInRight">Dynamic</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		</div>
-	</section>
-	<!-- About Me Ends  -->
-	<!-- My Skills -->
-	<section>
-		<div class="skills" id="skills">
-			<div class="container-fluid">
-				<div class="row">
 					<div class="col-12">
-						<h2 class="wow animate__animated animate__zoomInUp" data-wow-duration="1s">My SuperPowers</h2>
-						<hr class="wow animate__animated animate__lightSpeedInRight" data-wow-duration="1s">
-					</div>
-					<div class="col-12 col-md-12 col-xl-12 wow animate__animated animate__fadeInUp">
-						<div class="owl-carousel skill">
-							<div>
-								<img alt="HTML5" src="img/html-5.svg">
-								<p>HTML5</p>
-							</div>
-							<div>
-								<img alt="CSS3" src="img/css3.svg">
-								<p>CSS3</p>
-							</div>
-							<div>
-								<img alt="CSS3" src="img/sass.svg">
-								<p>SCSS</p>
-							</div>
-							<div>
-								<img alt="BootStrap" src="img/bootstrap.svg">
-								<p>BootStrap</p>
-							</div>
-							<div>
-								<img alt="JavaScript" src="img/js.svg">
-								<p>JavaScript</p>
-							</div>
-							<div>
-								<img alt="jQuery" src="img/jquery.svg">
-								<p>jQuery</p>
-							</div>
-							<div>
-								<img alt="Django" src="img/django.svg">
-								<p>Django</p>
-							</div>
+						<div class="siema">
+							<div><img alt="Sample Work" src="img/home/work1.webp"></div>
+							<div><img alt="Sample Work" src="img/home/work2.webp"></div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!-- My skills Ends -->
+	<!-- Home Ends  -->
+	<!-- About Starts  -->
+	<section>
+		<div class="container about" id="about">
+			<div class="row">
+				<div class="col-12">
+					<h2>
+						About Me
+					</h2>
+				</div>
+				<div class="col-6 col-lg-3">
+					<div class="about-card">
+						<span class="iconify" data-icon="mdi:responsive" data-inline="false"></span>
+						<p>Responsive</p>
+					</div>
+				</div>
+				<div class="col-6 col-lg-3">
+					<div class="about-card">
+						<span class="iconify" data-icon="ic:baseline-design-services" data-inline="false"></span>
+						<p>Design</p>
+					</div>
+				</div>
+				<div class="col-6 col-lg-3">
+					<div class="about-card">
+						<span class="iconify" data-icon="ion:rocket-outline" data-inline="false"></span>
+						<p>Fast</p>
+					</div>
+				</div>
+				<div class="col-6 col-lg-3">
+					<div class="about-card">
+						<span class="iconify" data-icon="whh:seo" data-inline="false"></span>
+						<p>seo</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- About Ends  -->
+	<!-- My skills Starts  -->
+	<section>
+		<div class="container-fluid skills" id="skills">
+			<div class="row">
+				<div class="col-12">
+					<h2>My Superpowers</h2>
+				</div>
+				<div class="col-12">
+					<div class="skill">
+						<div>
+							<img alt="HTML5" src="img/skills/html-5.svg">
+							<p>HTML5</p>
+						</div>
+						<div>
+							<img alt="CSS3" src="img/skills/css3.svg">
+							<p>CSS3</p>
+						</div>
+						<div>
+							<img alt="CSS3" src="img/skills/sass.svg">
+							<p>SCSS</p>
+						</div>
+						<div>
+							<img alt="BootStrap" src="img/skills/bootstrap.svg">
+							<p>BootStrap</p>
+						</div>
+						<div>
+							<img alt="JavaScript" src="img/skills/js.svg">
+							<p>JavaScript</p>
+						</div>
+						<div>
+							<img alt="jQuery" src="img/skills/jquery.svg">
+							<p>jQuery</p>
+						</div>
+						<div>
+							<img alt="Django" src="img/skills/django.svg">
+							<p>Django</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- My skills Ends  -->
 	<!-- Certifications -->
-	<section id="certifications" class="certifications">
+	<!-- <section id="certifications" class="certifications">
 		<h2 class="wow animate__animated animate__zoomInUp" data-wow-duration="1s">Certifications</h2>
 		<hr class="wow animate__animated animate__lightSpeedInRight" data-wow-duration="1s">
 		<div class="container">
@@ -254,51 +223,122 @@
 			</div>
 		</div>
 		</div>
-	</section>
+	</section> -->
 	<!-- Certifications Ends -->
-	<!-- Footer Start -->
+	<!-- My Work Start  -->
 	<section>
-		<div id="footer" class="footer text-center p-5">
-			<div class="container">
-				<div class="row">
-					<div class="col-12">
-						<h3 class="text-light">
-							<img alt="programmergaurav" src="img/namewhite.webp" width="25%">
-						</h3>
+		<div class="container work" id="work">
+			<div class="row">
+				<div class="col-12">
+					<h2>My Work</h2>
+				</div>
+				<div class="col-12 col-lg-4">
+					<div class="project">
+						<img src="img/work/proomediaLogo.png" alt="">
+						<div class="overlay">
+							<a href="https://proomedia.herokuapp.com" target="blank" class="text">Visit</a>
+						</div>
 					</div>
-					<div class="col-12">
-						<div class="soc">
-							<a title="Github profile Link" target="_blank" href="https://github.com/programmergaurav">
-								<i class="fab fa-github"></i>
-							</a>
+					<div class="title">
+						Social Media Website
+					</div>
+				</div>
+				<div class="col-12 col-lg-4">
+					<div class="project">
+						<img src="img/work/techarenalogo.png" alt="">
+						<div class="overlay">
+							<a href="https://programmergaurav.github.io/TechArena/" target="blank"
+								class="text">Visit</a>
 						</div>
-						<div class="soc">
-							<a title="Facebook profile link" target="_blank"
-								href="https://www.facebook.com/profile.php?id=100026746380141">
-								<i class="fab fa-facebook"></i>
-							</a>
+					</div>
+					<div class="title">
+						College Fest Website(Beta)
+					</div>
+				</div>
+				<div class="col-12 col-lg-4">
+					<div class="project">
+						<img src="img/work/googlemeethacklogo.png" alt="">
+						<div class="overlay">
+							<a href="https://github.com/ProgrammerGaurav/Google-Meet-Hack" target="blank"
+								class="text">Visit</a>
 						</div>
-						<div class="soc">
-							<a title="Instagram profile link" target="_blank"
-								href="https://www.instagram.com/programmergaurav/">
-								<i class="fab fa-instagram"></i>
-							</a>
+					</div>
+					<div class="title">
+						Google Meet Extension
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- My Work Ends  -->
+	<!-- My Contact Starts  -->
+	<section class="bg">
+		<div class="container contact" id="contact">
+			<div class="row">
+				<div class="col-12">
+					<h2>Contact</h2>
+				</div>
+				<div class="col-12 col-md-8 col-lg-6">
+					<form action="" class="form">
+						<h3>Let's Chat</h3>
+						<div class="textarea">
+							<label for="">Name</label>
+							<input type="text">
 						</div>
-						<div class="soc">
-							<a title="linkedin profile link" target="_blank"
-								href="https://www.linkedin.com/in/gaurav-gupta-ab8b7a175/">
-								<i class="fab fa-linkedin"></i>
-							</a>
+						<div class="textarea">
+							<label for="">Message</label>
+							<textarea></textarea>
 						</div>
+						<div class="textarea">
+							<button type="submit">
+								Send
+							</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- My Contact Ends  -->
+	<!-- Footer Starts  -->
+	<section>
+		<div class="container-fluid footer">
+			<div class="row">
+				<div class="col-12">
+					<img alt="programmergaurav" src="img/namewhite.webp">
+				</div>
+				<div class="col-12">
+					<div class="soc">
+						<a title="Github profile Link" target="_blank" href="https://github.com/programmergaurav">
+							<i class="fab fa-github"></i>
+						</a>
+					</div>
+					<div class="soc">
+						<a title="Facebook profile link" target="_blank"
+							href="https://www.facebook.com/profile.php?id=100026746380141">
+							<i class="fab fa-facebook"></i>
+						</a>
+					</div>
+					<div class="soc">
+						<a title="Instagram profile link" target="_blank"
+							href="https://www.instagram.com/programmergaurav/">
+							<i class="fab fa-instagram"></i>
+						</a>
+					</div>
+					<div class="soc">
+						<a title="linkedin profile link" target="_blank"
+							href="https://www.linkedin.com/in/gaurav-gupta-ab8b7a175/">
+							<i class="fab fa-linkedin"></i>
+						</a>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="copyright">
-			Gaurav Gupta &copy;2019
+			Gaurav Gupta &copy;2020
 		</div>
 	</section>
-	<!-- Footer Ends -->
+	<!-- Footer Ends  -->
 	<section>
 	</section>
 	<!-- Schema Starts  -->
@@ -319,7 +359,7 @@
 	</script>
 	<!-- schema ends -->
 	<!-- Some text for seo -->
-	<div class="d-none">
+	<div style="display: none;">
 		<img src="img/programmergaurav.jpg" alt="programmergaurav" title="programmergaurav">
 		<!-- More text means good ranking, isliyea pura wikipedia pel duga yaha XD -->
 		I am a programmer, programmergaurav programmer gaurav programmer gaurav, programmergaurav programmer gaurav
@@ -509,11 +549,9 @@
 		Programming can be done using a variety of computer "languages," such as SQL, Java, Python, and C++.
 	</div>
 	<!-- seo text end -->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+	<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+	<script src="js/siema.min.js"></script>
 	<script src="js/typed.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/wow.min.js"></script>
 	<script src="js/script.js"></script>
 </body>
 
