@@ -117,7 +117,7 @@ a {
 }
 
 .about .about-card {
-  background-color: #F8FCFD;
+  background-color: #F7F9FF;
   padding: 20px;
   margin: 10%;
   -webkit-transition-duration: 0.5s;
@@ -296,7 +296,7 @@ a {
   background-color: #7c00c913;
 }
 
-.contact .form .textarea button {
+.contact .form button {
   border-width: 0;
   outline: none;
   border-radius: 2px;
@@ -311,7 +311,7 @@ a {
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-.contact .form .textarea button:hover {
+.contact .form button:hover {
   opacity: 0.9;
 }
 
@@ -426,6 +426,9 @@ a {
   .about .about-card p {
     font-size: 12px;
   }
+  .work .col-12 {
+    margin-bottom: 30px;
+  }
   .contact img {
     width: 100%;
     height: auto;
@@ -437,5 +440,86 @@ a {
   .footer i {
     padding: 12px;
   }
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes backInLeft {
+  0% {
+    -webkit-transform: translateX(-2000px) scale(0.7);
+    transform: translateX(-2000px) scale(0.7);
+    opacity: .7;
+  }
+  80% {
+    -webkit-transform: translateX(0) scale(0.7);
+    transform: translateX(0) scale(0.7);
+    opacity: .7;
+  }
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes backInLeft {
+  0% {
+    -webkit-transform: translateX(-2000px) scale(0.7);
+    transform: translateX(-2000px) scale(0.7);
+    opacity: .7;
+  }
+  80% {
+    -webkit-transform: translateX(0) scale(0.7);
+    transform: translateX(0) scale(0.7);
+    opacity: .7;
+  }
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.backInLeft {
+  -webkit-animation-name: backInLeft;
+  animation-name: backInLeft;
+}
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
 }
 /*# sourceMappingURL=style.css.map */

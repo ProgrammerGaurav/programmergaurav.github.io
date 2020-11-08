@@ -1,4 +1,13 @@
-// 
+new WOW().init();
+
+var frm = document.querySelector('#contact')
+frm.addEventListener("submit", (e) => {
+    e.preventDefault();
+    let name = document.getElementById("name").value;
+    let messege = document.getElementById("messege").value;
+    var win = window.open(`https://wa.me/+918450996596?text=Hi%20I%27m%20${name},%20${messege}`, '_blank');
+});
+
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -80,7 +89,3 @@ window.addEventListener('scroll', () => {
         navbarNav.classList.remove('navBar');
     }
 });
-
-document.addEventListener('onload', () => {
-    navbar.style.display = "none";
-})

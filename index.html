@@ -105,25 +105,25 @@
 					</h2>
 				</div>
 				<div class="col-6 col-lg-3">
-					<div class="about-card">
+					<div class="about-card wow backInLeft">
 						<span class="iconify" data-icon="mdi:responsive" data-inline="false"></span>
 						<p>Responsive</p>
 					</div>
 				</div>
 				<div class="col-6 col-lg-3">
-					<div class="about-card">
+					<div class="about-card wow backInLeft" data-wow-delay="0.2s">
 						<span class="iconify" data-icon="ic:baseline-design-services" data-inline="false"></span>
 						<p>Design</p>
 					</div>
 				</div>
 				<div class="col-6 col-lg-3">
-					<div class="about-card">
+					<div class="about-card wow backInLeft" data-wow-delay="0.4s">
 						<span class="iconify" data-icon="ion:rocket-outline" data-inline="false"></span>
 						<p>Fast</p>
 					</div>
 				</div>
 				<div class="col-6 col-lg-3">
-					<div class="about-card">
+					<div class="about-card wow backInLeft" data-wow-delay="0.6s">
 						<span class="iconify" data-icon="whh:seo" data-inline="false"></span>
 						<p>seo</p>
 					</div>
@@ -233,7 +233,7 @@
 					<h2>My Work</h2>
 				</div>
 				<div class="col-12 col-lg-4">
-					<div class="project">
+					<div class="project wow fadeInUp">
 						<img src="img/work/proomediaLogo.png" alt="">
 						<div class="overlay">
 							<a href="https://proomedia.herokuapp.com" target="blank" class="text">Visit</a>
@@ -244,7 +244,7 @@
 					</div>
 				</div>
 				<div class="col-12 col-lg-4">
-					<div class="project">
+					<div class="project wow fadeInUp" data-wow-delay="0.1s">
 						<img src="img/work/haramkhorlogo.png" alt="">
 						<div class="overlay">
 							<a href="http://haramkhor.herokuapp.com/" target="blank" class="text">Visit</a>
@@ -255,7 +255,7 @@
 					</div>
 				</div>
 				<div class="col-12 col-lg-4">
-					<div class="project">
+					<div class="project wow fadeInUp" data-wow-delay="0.2s">
 						<img src="img/work/googlemeethacklogo.png" alt="">
 						<div class="overlay">
 							<a href="https://github.com/ProgrammerGaurav/Google-Meet-Hack" target="blank"
@@ -277,22 +277,20 @@
 				<div class="col-12">
 					<h2>Contact</h2>
 				</div>
-				<div class="col-12 col-md-8 col-lg-6">
-					<form action="" class="form">
+				<div class="col-12 col-md-8 col-lg-8">
+					<form id="contact" class="form">
 						<h3>Let's Chat</h3>
 						<div class="textarea">
-							<label for="">Name</label>
-							<input type="text">
+							<label for="name">Name</label>
+							<input type="text" class="form-control" id="name" name="name" required>
 						</div>
 						<div class="textarea">
 							<label for="">Message</label>
-							<textarea></textarea>
+							<textarea type="text" class="form-control" id="messege" name="messege" required></textarea>
 						</div>
-						<div class="textarea">
-							<button type="submit">
-								Send
-							</button>
-						</div>
+						<button type="submit">
+							Send
+						</button>
 					</form>
 				</div>
 			</div>
@@ -549,6 +547,7 @@
 	</div>
 	<!-- seo text end -->
 	<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+	<script src="js/wow.min.js"></script>
 	<script src="js/siema.min.js"></script>
 	<script src="js/typed.min.js"></script>
 	<script src="js/script.js"></script>
