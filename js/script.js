@@ -60,7 +60,7 @@ const skills = new Siema({
     onInit: () => {},
     onChange: () => {},
 });
-setInterval(() => skills.next(), 1000);
+setInterval(() => skills.next(), 1500);
 
 const navbarNav = document.querySelector('.navbar-nav');
 const toggle = document.querySelector('.toggle');
