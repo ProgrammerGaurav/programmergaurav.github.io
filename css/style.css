@@ -239,6 +239,25 @@ a {
           filter: blur(1px);
 }
 
+.activities {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.activities codersrank-activity {
+  --svg-width: 80%;
+  --bg-color-0: #EBEDF0;
+  --bg-color-1: #80F7A5;
+  --bg-color-2: #00D55E;
+  --bg-color-3: #00B049;
+  --bg-color-4: #007836;
+  --border-color-0: rgb(27, 31, 35, 0.06);
+  --border-color-1: rgb(27, 31, 35, 0.06);
+  --border-color-2: rgb(27, 31, 35, 0.06);
+  --border-color-3: rgb(27, 31, 35, 0.06);
+  --border-color-4: rgb(27, 31, 35, 0.06);
+}
+
 .contact {
   margin-top: 100px;
   padding-bottom: 100px;
@@ -438,6 +457,9 @@ a {
   }
   .work .col-12 {
     margin-bottom: 30px;
+  }
+  .activities codersrank-activity {
+    --svg-width: 100%;
   }
   .contact img {
     width: 100%;
