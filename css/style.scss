@@ -263,6 +263,54 @@ a {
     }
 }
 
+.experience {
+    margin-top: 100px;
+    text-align: center;
+
+    h2 {
+        padding: 10px;
+        border-bottom: 5px solid #7C00C9;
+        display: inline-block;
+    }
+
+    h3 {
+        margin-bottom: 0px;
+    }
+
+    .title {
+        text-align: right;
+
+        p {
+            font-size: 0.8rem;
+        }
+    }
+
+    .company {
+        text-align: left;
+
+        padding-right: 200px;
+
+        .box {
+            border-left: 1px solid grey;
+        }
+
+        h3 {
+            padding-left: 30px;
+
+        }
+
+        ul {
+            font-size: 0.9rem;
+            margin-left: 20px;
+
+            li {
+                padding: 5px 0px;
+            }
+        }
+    }
+
+}
+
 .contact {
     margin-top: 100px;
     padding-bottom: 100px;
@@ -486,6 +534,41 @@ a {
         codersrank-activity {
             --svg-width: 100%;
         }
+    }
+
+    .experience {
+
+        .title {
+            text-align: left;
+
+            p {
+                font-size: 0.8rem;
+            }
+        }
+
+        .company {
+            padding-right: 0px;
+
+            .box {
+                margin-left: 10px;
+                overflow: none;
+            }
+
+            h3 {
+                padding-left: 10px;
+
+            }
+
+            ul {
+                font-size: 0.9rem;
+                margin-left: 0px;
+
+                li {
+                    padding: 5px 0px;
+                }
+            }
+        }
+
     }
 
     .contact {
