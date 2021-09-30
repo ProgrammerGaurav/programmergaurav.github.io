@@ -10,8 +10,8 @@
 
 
 * [Technolgies used](#the-technologies-used-are)
-* [Demo Images](#images)
-* [Link](https://programmergaurav.github.io/)
+* [Website-Images](#images)
+* [Website-link](https://programmergaurav.github.io/)
 
 
 ## The technologies used are: 
