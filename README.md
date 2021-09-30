@@ -9,10 +9,10 @@
 ## Table of contents
 
 
-* Technolgies used
-* Demo Images
+* [Technolgies used](#the-technologies-used-are)
+* [Demo Images](#images)
 * [Link](https://programmergaurav.github.io/)
-* Badges
+
 
 ## The technologies used are: 
 
