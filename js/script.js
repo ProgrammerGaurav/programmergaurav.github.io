@@ -1,5 +1,8 @@
 new WOW().init();
 
+const footerDate = document.getElementById("footer-date");
+const year = new Date().getFullYear();
+footerDate.innerHTML = year;
 var frm = document.querySelector('#contact')
 frm.addEventListener("submit", (e) => {
     e.preventDefault();
