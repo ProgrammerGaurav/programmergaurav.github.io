@@ -5,6 +5,28 @@ body {
   margin: 0;
   font-family: 'Spartan', sans-serif;
 }
+/* Scrollbar -- start */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #7C00C9; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #480274; 
+}
+
+/* Scrollbar -- end */
 
 a {
   color: inherit;
