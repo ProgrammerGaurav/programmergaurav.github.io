@@ -476,6 +476,17 @@ a {
 .copyright span {
   opacity: 0.5;
   font-size: 14px;
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px rgb(255, 238, 0),
+      0 0 82px rgba(229, 255, 0, 0.171),
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+  
 }
 
 @media (max-width: 992px) {
