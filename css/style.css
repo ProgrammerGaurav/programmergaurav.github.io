@@ -478,6 +478,26 @@ a {
   font-size: 14px;
 }
 
+.projects {
+  padding-top: 130px;
+  background-color: #f7f9ff;
+}
+
+.projects .project {
+  padding: 10px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.projects .project img {
+  width: 100%;
+}
+
 @media (max-width: 992px) {
   .navbar .navbar-nav {
     -webkit-box-orient: vertical;
@@ -560,6 +580,10 @@ a {
   }
   .footer i {
     padding: 12px;
+  }
+  .projects {
+    padding-top: 100px;
+    padding-bottom: 0px;
   }
 }
 
