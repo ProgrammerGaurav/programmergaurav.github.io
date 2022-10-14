@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;600;700&display=swap");
+html {
+    scroll-behavior: smooth;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -406,6 +410,40 @@ a {
 .contact .form:hover {
   -webkit-box-shadow: none;
           box-shadow: none;
+}
+
+.scroll-to-top-wrapper {
+    position: absolute;
+    top: 500vh;
+    right: 2.5rem;
+    bottom: -3em;
+    width: 3em;
+    pointer-events: none;
+}
+
+.scroll-to-top {
+    position: fixed;
+    position: sticky;
+    pointer-events: all;
+    top: calc(100vh - 8rem);
+    display: inline-block;
+    text-decoration: none;
+    line-height: 4rem;
+    text-align: center;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: transform 80ms ease-in;
+}
+
+.arrow-up {
+    border: solid #ffffff;
+    border-width: 0 0.5rem 0.5rem 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
 }
 
 .footer {
