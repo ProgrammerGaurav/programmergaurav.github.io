@@ -5,6 +5,7 @@ body {
 	padding: 0;
 	margin: 0;
 	font-family: "Spartan", sans-serif;
+	font-display: swap;
 }
 
 a {
@@ -65,6 +66,9 @@ a {
 	display: none;
 	font-size: 25px;
 	cursor: pointer;
+	img {
+		width: 22px;
+	}
 }
 
 .navbar-nav {
@@ -87,7 +91,7 @@ a {
 
 .parallax {
 	background-color: #fff;
-	background-image: url(../img/home/page1.jpg);
+	background-image: url(../img/home/page1.webp);
 	background-attachment: fixed;
 	height: 100vh;
 	background-position: center;
@@ -400,7 +404,7 @@ a {
 
 .footer {
 	background-color: #000000;
-	background-image: url(../img/home/page1.jpg);
+	background-image: url(../img/home/page1.webp);
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -408,51 +412,45 @@ a {
 	text-align: center;
 	padding: 20px;
 
-	img {
+	&-title {
 		width: 25%;
 		padding: 10px 0px;
-	}
-
-	i {
-		padding: 20px;
-		font-size: 25px;
-		text-align: center;
-		text-decoration: none;
-		border-radius: 5px;
 	}
 
 	i:hover {
 		opacity: 0.7;
 	}
 
-	.fa-facebook {
-		background: #3b5998;
-		color: white;
-	}
-
-	.fa-twitter {
-		background: #55acee;
-		color: white;
-	}
-
-	.fa-linkedin {
-		background: #007bb5;
-		color: white;
-	}
-
-	.fa-instagram {
-		background: #9c2dbb;
-		color: white;
-	}
-
-	.fa-github {
-		background: #212529;
-		color: white;
-	}
-
 	.soc {
 		display: inline-block;
 		margin: 4px;
+		img {
+			width: 62px;
+			padding: 20px;
+			font-size: 25px;
+			text-align: center;
+			text-decoration: none;
+			border-radius: 5px;
+		}
+		.github {
+			background: #212529;
+		}
+
+		.facebook {
+			background: #3b5998;
+		}
+
+		.twitter {
+			background: #55acee;
+		}
+
+		.linkedin {
+			background: #007bb5;
+		}
+
+		.instagram {
+			background: #9c2dbb;
+		}
 	}
 }
 
@@ -592,12 +590,15 @@ a {
 	}
 
 	.footer {
-		img {
+		&-title {
 			width: 80%;
 		}
 
-		i {
-			padding: 12px;
+		.soc {
+			img {
+				width: 40px;
+				padding: 12px;
+			}
 		}
 	}
 	.projects {
