@@ -81,11 +81,13 @@ window.addEventListener('scroll', () => {
         navbar.style.backgroundColor = "white";
         navbar.style.color = "black";
         navbarNav.classList.add('navBar');
+        toggle.style.filter ="invert(1)"
     } else if (window.pageYOffset == 0) {
         navbar.style.height = "77px";
         navbar.style.lineHeight = "77px";
         navbar.style.backgroundColor = "black";
         navbar.style.color = "white";
         navbarNav.classList.remove('navBar');
+        toggle.style.filter ="invert(0)"
     }
 });
