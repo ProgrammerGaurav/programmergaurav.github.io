@@ -468,6 +468,12 @@ a {
 .projects {
 	padding-top: 130px;
 	background-color: #f7f9ff;
+	text-align: center;
+	h2 {
+		padding: 10px;
+		border-bottom: 5px solid #7c00c9;
+		display: inline-block;
+	}
 	.project {
 		padding: 10px;
 		background-color: #fff;
@@ -476,8 +482,13 @@ a {
 		cursor: pointer;
 		box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.1);
 		margin-bottom: 30px;
+		transition: all 0.1s ease;
 		img {
 			width: 100%;
+		}
+		
+		&:hover{
+			transform: scale(1.05);
 		}
 	}
 }
